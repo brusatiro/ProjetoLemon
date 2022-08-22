@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Lemon App</string>
+    <string name="nome">Lemon App</string>
+    <string name="intro">Seja bem-vindo ao Lemon App</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnCadastro">Cadastro</string>
+    <string name="btnAdmin">Entrar como administrador</string>
+    <string name="btnColaborador">Entrar como colaborador</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="btnFazerCadastro">Não tem uma conta? Faça o cadastro</string>
+    <string name="btnBomHoje">O que você fez de bom hoje?</string>
+    <string name="acao1">Cultivei horta doméstica</string>
+    <string name="acao2">Separei lixo para reciclagem</string>
+    <string name="acao3">Tive hábitos alimentares saudáveis</string>
+    <string name="acao4">Pratiquei atividades fisícas</string>
+    <string name="acao5">Participei de projetos voluntários</string>
+    <string name="acao6">Utilizei alternativas de transporte</string>
+    <string name="btnInicio">Inicio</string>
+    <string name="btnBonificacao">Bonificação</string>
+    <string name="btnPontuacao">Pontuação</string>
+    <string name="btnMeuGrupo">Meu grupo</string>
+    <string name="btnRanking">Ranking</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="pontos">+20</string>
+</resources>

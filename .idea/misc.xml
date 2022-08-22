@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/iconRun_foreground.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/acitivity_backgroundlogin.xml" value="0.1475" />
+        <entry key="app/src/main/res/drawable/activity_background.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/activity_backgroundButton.xml" value="0.1845" />
+        <entry key="app/src/main/res/drawable/activity_backgroundinput.xml" value="0.1475" />
+        <entry key="app/src/main/res/drawable/ic_iconbus.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/ic_iconcompany.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/ic_iconinicio.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/ic_iconpontuacao.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/ic_iconrun.xml" value="0.128" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1475" />
+        <entry key="app/src/main/res/drawable/ic_user.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19925842285156248" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.23169606526692688" />
+        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.245706338977497" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.128" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/iconAdmin.xml" value="0.128" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/iconColab.xml" value="0.128" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/iconColab_round.xml" value="0.128" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/iconLogoApp_round.xml" value="0.128" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

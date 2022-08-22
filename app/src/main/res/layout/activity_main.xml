@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulEscuro"
+    android:paddingStart="50dp"
+    android:paddingEnd="50dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/intro"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nome" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/nome"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.459" />
+
+
+
+
+    <Button
+        android:id="@+id/botaoColab"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="50dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/btnColaborador"
+        android:textColor="@color/rosaEscuro"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro" />
+
+    <Button
+        android:id="@+id/botaoAdmin"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/rosaEscuro"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="50dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/btnAdmin"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/icon_logo_app_foreground" />
+
+    <ImageView
+        android:id="@+id/iconColab"
+        android:layout_width="120dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="4dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/botaoColab"
+        app:layout_constraintEnd_toEndOf="@+id/botaoColab"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/botaoColab"
+        app:layout_constraintTop_toTopOf="@+id/botaoColab"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/icon_colab_foreground" />
+
+    <ImageView
+        android:id="@+id/iconAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/botaoAdmin"
+        app:layout_constraintEnd_toEndOf="@+id/botaoAdmin"
+        app:layout_constraintStart_toStartOf="@+id/botaoAdmin"
+        app:layout_constraintTop_toTopOf="@+id/botaoAdmin"
+        app:srcCompat="@mipmap/icon_admin2_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

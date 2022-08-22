@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rosaEscuro"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/iconLogo3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="-5dp"
+        app:layout_constraintStart_toStartOf="@+id/textH1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/icon_logo_app_foreground" />
+
+    <TextView
+        android:id="@+id/textH1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnBomHoje"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnHorta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconLogo3" />
+
+    <Button
+        android:id="@+id/btnReciclagem"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="5dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="60dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="0dp"
+        android:text="@string/acao2"
+        android:textColor="@color/azulEscuro"
+        android:textSize="7.2sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/btnAlimentacao"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toEndOf="@+id/btnHorta"
+        app:layout_constraintTop_toBottomOf="@+id/textH1" />
+
+    <Button
+        android:id="@+id/btnAtividade"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="5dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="60dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="0dp"
+        android:text="@string/acao4"
+        android:textColor="@color/azulEscuro"
+        android:textSize="7.2sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="@+id/btnHorta"
+        app:layout_constraintTop_toBottomOf="@+id/btnHorta" />
+
+    <Button
+        android:id="@+id/btnVoluntariado"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="60dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:shadowColor="#000000"
+        android:text="@string/acao5"
+        android:textAlignment="center"
+        android:textColor="@color/azulEscuro"
+        android:textSize="7.2sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnReciclagem"
+        app:layout_constraintTop_toBottomOf="@+id/btnReciclagem" />
+
+    <Button
+        android:id="@+id/btnHorta"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="5dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="60dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="0dp"
+
+        android:text="@string/acao1"
+        android:textColor="@color/azulEscuro"
+        android:textSize="7.2sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textH1"
+        app:layout_constraintTop_toBottomOf="@+id/textH1" />
+
+    <Button
+        android:id="@+id/btnTransporte"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="5dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="60dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="0dp"
+        android:text="@string/acao6"
+        android:textColor="@color/azulEscuro"
+        android:textSize="7.2sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnAlimentacao"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlimentacao" />
+
+    <Button
+        android:id="@+id/btnAlimentacao"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="3.5dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="60dp"
+        android:paddingEnd="3.5dp"
+        android:paddingRight="0dp"
+        android:text="@string/acao3"
+        android:textColor="@color/azulEscuro"
+        android:textSize="7.2sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/textH1"
+        app:layout_constraintTop_toBottomOf="@+id/textH1" />
+
+    <LinearLayout
+        android:id="@+id/barraOpcoes"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/rosaClaro"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/btnInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparente"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:text="@string/btnInicio"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/btnBonificacao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparente"
+            android:paddingStart="-2dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="6dp"
+            android:text="@string/btnBonificacao"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/btnPontuacao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparente"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:text="@string/btnPontuacao"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/btnGrupo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparente"
+            android:paddingStart="5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:text="@string/btnMeuGrupo"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/btnRanking"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparente"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:text="@string/btnRanking"
+            android:textSize="9sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iconAtividade"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="6dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/nrAtividade"
+        app:layout_constraintEnd_toEndOf="@+id/btnAtividade"
+        app:layout_constraintStart_toStartOf="@+id/btnAtividade"
+        app:layout_constraintTop_toTopOf="@+id/btnAtividade"
+        app:srcCompat="@drawable/ic_iconrun" />
+
+    <TextView
+        android:id="@+id/nrAtividade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:elevation="5dp"
+        android:text="@string/pontos"
+        android:textColor="@color/azulEscuro"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnAtividade"
+        app:layout_constraintEnd_toEndOf="@+id/btnAtividade"
+        app:layout_constraintStart_toStartOf="@+id/btnAtividade"
+        app:layout_constraintTop_toTopOf="@+id/btnAtividade"
+        tools:text="@string/pontos" />
+
+    <TextView
+        android:id="@+id/nrVoluntariado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:elevation="5dp"
+        android:text="@string/pontos"
+        android:textColor="@color/azulEscuro"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnVoluntariado"
+        app:layout_constraintEnd_toEndOf="@+id/btnVoluntariado"
+        app:layout_constraintStart_toStartOf="@+id/btnVoluntariado"
+        app:layout_constraintTop_toTopOf="@+id/btnVoluntariado"
+        tools:text="@string/pontos" />
+
+    <TextView
+        android:id="@+id/nrTransporte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:elevation="5dp"
+        android:text="@string/pontos"
+        android:textColor="@color/azulEscuro"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTransporte"
+        app:layout_constraintEnd_toEndOf="@+id/btnTransporte"
+        app:layout_constraintStart_toStartOf="@+id/btnTransporte"
+        app:layout_constraintTop_toTopOf="@+id/btnTransporte"
+        tools:text="@string/pontos" />
+
+    <TextView
+        android:id="@+id/nrReciclagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:elevation="5dp"
+        android:text="@string/pontos"
+        android:textColor="@color/azulEscuro"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnReciclagem"
+        app:layout_constraintEnd_toEndOf="@+id/btnReciclagem"
+        app:layout_constraintStart_toStartOf="@+id/btnReciclagem"
+        app:layout_constraintTop_toTopOf="@+id/btnReciclagem"
+        tools:text="@string/pontos" />
+
+    <TextView
+        android:id="@+id/nrHorta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:elevation="5dp"
+        android:text="@string/pontos"
+        android:textColor="@color/azulEscuro"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnHorta"
+        app:layout_constraintEnd_toEndOf="@+id/btnHorta"
+        app:layout_constraintStart_toStartOf="@+id/btnHorta"
+        app:layout_constraintTop_toTopOf="@+id/btnHorta"
+        tools:text="@string/pontos" />
+
+    <TextView
+        android:id="@+id/nrAlimentacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:elevation="5dp"
+        android:text="@string/pontos"
+        android:textColor="@color/azulEscuro"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnAlimentacao"
+        app:layout_constraintEnd_toEndOf="@+id/btnAlimentacao"
+        app:layout_constraintStart_toStartOf="@+id/btnAlimentacao"
+        app:layout_constraintTop_toTopOf="@+id/btnAlimentacao"
+        tools:text="@string/pontos" />
+
+    <ImageView
+        android:id="@+id/iconHorta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/nrHorta"
+        app:layout_constraintEnd_toEndOf="@+id/btnHorta"
+        app:layout_constraintStart_toStartOf="@+id/btnHorta"
+        app:layout_constraintTop_toTopOf="@+id/btnHorta"
+        app:srcCompat="@drawable/ic_iconplant" />
+
+    <ImageView
+        android:id="@+id/iconReciclagem"
+        android:layout_width="52dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="15dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/nrReciclagem"
+        app:layout_constraintEnd_toEndOf="@+id/btnReciclagem"
+        app:layout_constraintStart_toStartOf="@+id/btnReciclagem"
+        app:layout_constraintTop_toTopOf="@+id/btnReciclagem"
+        app:srcCompat="@drawable/ic_iconrecycle" />
+
+    <ImageView
+        android:id="@+id/iconAlimentacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/nrAlimentacao"
+        app:layout_constraintEnd_toEndOf="@+id/btnAlimentacao"
+        app:layout_constraintStart_toStartOf="@+id/btnAlimentacao"
+        app:layout_constraintTop_toTopOf="@+id/btnAlimentacao"
+        app:srcCompat="@drawable/ic_iconsalad" />
+
+    <ImageView
+        android:id="@+id/iconVoluntariado"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="6dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/nrVoluntariado"
+        app:layout_constraintEnd_toEndOf="@+id/btnVoluntariado"
+        app:layout_constraintStart_toStartOf="@+id/btnVoluntariado"
+        app:layout_constraintTop_toTopOf="@+id/btnVoluntariado"
+        app:srcCompat="@drawable/ic_iconheart" />
+
+    <ImageView
+        android:id="@+id/iconTransporte"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="6dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/nrTransporte"
+        app:layout_constraintEnd_toEndOf="@+id/btnTransporte"
+        app:layout_constraintStart_toStartOf="@+id/btnTransporte"
+        app:layout_constraintTop_toTopOf="@+id/btnTransporte"
+        app:srcCompat="@drawable/ic_iconbus" />
+
+    <ImageButton
+        android:id="@+id/iconOpcoes"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/transparente"
+        app:layout_constraintBottom_toBottomOf="@+id/barraOpcoes"
+        app:layout_constraintStart_toStartOf="@+id/barraOpcoes"
+        app:layout_constraintTop_toTopOf="@+id/barraOpcoes"
+        app:srcCompat="@drawable/ic_iconinicio" />
+
+    <ImageButton
+        android:id="@+id/iconBonficacao"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/transparente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iconOpcoes"
+        app:layout_constraintTop_toTopOf="@+id/barraOpcoes"
+        app:srcCompat="@drawable/ic_iconbonificacao" />
+
+    <ImageButton
+        android:id="@+id/iconPontuacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:background="@color/transparente"
+        app:layout_constraintBottom_toBottomOf="@+id/barraOpcoes"
+        app:layout_constraintEnd_toEndOf="@+id/barraOpcoes"
+        app:layout_constraintStart_toStartOf="@+id/barraOpcoes"
+        app:layout_constraintTop_toTopOf="@+id/barraOpcoes"
+        app:layout_constraintVertical_bias="0.722"
+        app:srcCompat="@drawable/ic_iconpontuacao" />
+
+    <ImageButton
+        android:id="@+id/iconGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/transparente"
+        app:layout_constraintBottom_toBottomOf="@+id/barraOpcoes"
+        app:layout_constraintStart_toEndOf="@+id/iconPontuacao"
+        app:layout_constraintTop_toTopOf="@+id/barraOpcoes"
+        app:srcCompat="@drawable/ic_icongrupo" />
+
+    <ImageButton
+        android:id="@+id/iconRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/transparente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iconGrupo"
+        app:layout_constraintTop_toTopOf="@+id/barraOpcoes"
+        app:srcCompat="@drawable/ic_iconranking" />
+
+    <ImageButton
+        android:id="@+id/iconArvore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textH1"
+        app:srcCompat="@drawable/ic_icontree" />
+
+    <ImageButton
+        android:id="@+id/iconPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/transparente"
+        app:layout_constraintBottom_toBottomOf="@+id/iconLogo3"
+        app:layout_constraintEnd_toEndOf="@+id/textH1"
+        app:layout_constraintTop_toTopOf="@+id/iconLogo3"
+        app:srcCompat="@drawable/ic_iconbtnuser" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
