@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/azulEscuro"
+    android:background="@color/verdeEscuro"
     android:paddingStart="50dp"
     android:paddingEnd="50dp"
     tools:context=".MainActivity">
@@ -44,8 +44,6 @@
         app:layout_constraintVertical_bias="0.459" />
 
 
-
-
     <Button
         android:id="@+id/botaoColab"
         android:layout_width="120dp"
@@ -59,8 +57,8 @@
         android:paddingRight="0dp"
         android:paddingBottom="0dp"
         android:text="@string/btnColaborador"
-        android:textColor="@color/rosaEscuro"
-        android:textSize="11sp"
+        android:textColor="@color/verdeEscuroLetra"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:cornerRadius="15dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,15 +70,15 @@
         android:layout_height="120dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
-        android:backgroundTint="@color/rosaEscuro"
+        android:backgroundTint="@color/white"
         android:paddingStart="0dp"
         android:paddingLeft="0dp"
         android:paddingTop="50dp"
         android:paddingRight="0dp"
         android:paddingBottom="0dp"
         android:text="@string/btnAdmin"
-        android:textColor="@color/white"
-        android:textSize="11sp"
+        android:textColor="@color/verdeEscuroLetra"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,30 +94,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/icon_logo_app_foreground" />
 
-    <ImageView
-        android:id="@+id/iconColab"
-        android:layout_width="120dp"
-        android:layout_height="161dp"
-        android:layout_marginStart="4dp"
-        android:elevation="5dp"
-        app:layout_constraintBottom_toBottomOf="@+id/botaoColab"
-        app:layout_constraintEnd_toEndOf="@+id/botaoColab"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/botaoColab"
-        app:layout_constraintTop_toTopOf="@+id/botaoColab"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@mipmap/icon_colab_foreground" />
 
     <ImageView
-        android:id="@+id/iconAdmin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="40dp"
         android:elevation="5dp"
         app:layout_constraintBottom_toBottomOf="@+id/botaoAdmin"
         app:layout_constraintEnd_toEndOf="@+id/botaoAdmin"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/botaoAdmin"
         app:layout_constraintTop_toTopOf="@+id/botaoAdmin"
-        app:srcCompat="@mipmap/icon_admin2_foreground" />
+        app:srcCompat="@mipmap/icon_administrador_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/botaoAdmin"
+        app:layout_constraintEnd_toEndOf="@+id/botaoColab"
+        app:layout_constraintStart_toStartOf="@+id/botaoColab"
+        app:layout_constraintTop_toTopOf="@+id/botaoColab"
+        app:srcCompat="@mipmap/icon_colaborador_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

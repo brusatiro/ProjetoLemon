@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Lemon App</string>
     <string name="nome">Lemon App</string>
-    <string name="intro">Seja bem-vindo ao Lemon App</string>
+    <string name="intro">Seja bem-vindo ao Lemon App!</string>
     <string name="btnLogin">Login</string>
     <string name="btnCadastro">Cadastro</string>
     <string name="btnAdmin">Entrar como administrador</string>
@@ -17,10 +17,29 @@
     <string name="acao5">Participei de projetos voluntários</string>
     <string name="acao6">Utilizei alternativas de transporte</string>
     <string name="btnInicio">Inicio</string>
-    <string name="btnBonificacao">Bonificação</string>
+    <string name="btnBonificacao">Prêmios</string>
     <string name="btnPontuacao">Pontuação</string>
-    <string name="btnMeuGrupo">Meu grupo</string>
-    <string name="btnRanking">Ranking</string>
+    <string name="btnDicas">Dicas</string>
     <string name="btnEntrar">Entrar</string>
     <string name="pontos">+20</string>
+    <string name="introNome">Olá, nome!</string>
+    <string name="title_activity_main4">MainActivity4</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="dicas_intro">Veja algumas dicas para você completar suas ações:</string>
+    <string name="ecopontos">Ecopontos</string>
+    <string name="mapa_ecopontos">Acesse o mapa</string>
+    <string name="voluntario">Doe para uma ONG</string>
+    <string name="ongs">Veja as ONGS</string>
+    <string name="cultivo">Dicas de cultivo</string>
+    <string name="btnCultivo">Veja as dicas</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>

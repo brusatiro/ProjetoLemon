@@ -14,6 +14,20 @@
         android:theme="@style/Theme.TestMyProject"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false"
+            android:label="@string/title_activity_main4"
+            android:theme="@style/Theme.TestMyProject.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${GOOGLE_MAPS_API_KEY}" />
+
+
+        <activity
             android:name=".MainActivity3"
             android:exported="false" />
         <activity

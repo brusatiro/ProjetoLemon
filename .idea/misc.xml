@@ -8,21 +8,41 @@
         <entry key="app/src/main/res/drawable/activity_background.xml" value="0.1195" />
         <entry key="app/src/main/res/drawable/activity_backgroundButton.xml" value="0.1845" />
         <entry key="app/src/main/res/drawable/activity_backgroundinput.xml" value="0.1475" />
+        <entry key="app/src/main/res/drawable/backgroundprincipal.xml" value="0.2605" />
         <entry key="app/src/main/res/drawable/ic_iconbus.xml" value="0.128" />
         <entry key="app/src/main/res/drawable/ic_iconcompany.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/ic_icondicas.xml" value="0.289" />
         <entry key="app/src/main/res/drawable/ic_iconinicio.xml" value="0.128" />
         <entry key="app/src/main/res/drawable/ic_iconpontuacao.xml" value="0.128" />
         <entry key="app/src/main/res/drawable/ic_iconrun.xml" value="0.128" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1475" />
+        <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.1185" />
+        <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1185" />
+        <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1185" />
         <entry key="app/src/main/res/drawable/ic_user.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19925842285156248" />
-        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.23169606526692688" />
-        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.245706338977497" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.1185" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23233908948194662" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.2689208984375" />
+        <entry key="app/src/main/res/layout/activity_main4.xml" value="0.19119110107421877" />
+        <entry key="app/src/main/res/layout/activity_main5.xml" value="0.1109375" />
+        <entry key="app/src/main/res/layout/activity_main6.xml" value="0.1109375" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.25104166666666666" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.25104166666666666" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25104166666666666" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.25104166666666666" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.25104166666666666" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/main_activity4.xml" value="0.1390625" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.128" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/iconAdmin.xml" value="0.128" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/iconColab.xml" value="0.128" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/iconColab_round.xml" value="0.128" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/iconLogoApp_round.xml" value="0.128" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/icon_admin2.xml" value="0.1185" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/icon_admin2_round.xml" value="0.1185" />
       </map>
     </option>
   </component>
