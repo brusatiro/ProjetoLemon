@@ -16,7 +16,7 @@
     <string name="acao4">Pratiquei atividades fisícas</string>
     <string name="acao5">Participei de projetos voluntários</string>
     <string name="acao6">Utilizei alternativas de transporte</string>
-    <string name="btnInicio">Inicio</string>
+    <string name="btnInicio">Ações</string>
     <string name="btnBonificacao">Prêmios</string>
     <string name="btnPontuacao">Pontuação</string>
     <string name="btnDicas">Dicas</string>
@@ -32,11 +32,13 @@
     <string name="action_settings">Settings</string>
     <string name="dicas_intro">Veja algumas dicas para você completar suas ações:</string>
     <string name="ecopontos">Ecopontos</string>
-    <string name="mapa_ecopontos">Acesse o mapa</string>
+    <string name="mapa_ecopontos">Ver Ecopontos</string>
     <string name="voluntario">Doe para uma ONG</string>
-    <string name="ongs">Veja as ONGS</string>
+    <string name="ongs">Ver ONG`S</string>
     <string name="cultivo">Dicas de cultivo</string>
-    <string name="btnCultivo">Veja as dicas</string>
+    <string name="btnCultivo">Ver dicas</string>
+    <string name="receitas">Receitas fit</string>
+    <string name="btnReceitas">Ver receitas</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>

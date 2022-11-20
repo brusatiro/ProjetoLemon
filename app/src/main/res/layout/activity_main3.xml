@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/verdeEscuro"
-    android:paddingTop="20dp"
-    tools:context=".MainActivity3">
+    android:paddingTop="20dp">
 
     <ImageView
         android:id="@+id/iconLogo3"
@@ -44,12 +43,12 @@
 
         <Button
             android:id="@+id/btnBonificacao"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/transparente"
-            android:paddingStart="20dp"
-            android:paddingLeft="20dp"
+            android:paddingStart="0dp"
+            android:paddingLeft="0dp"
             android:paddingTop="0dp"
             android:paddingEnd="6dp"
             android:text="@string/btnBonificacao"
@@ -57,7 +56,7 @@
 
         <Button
             android:id="@+id/btnPontuacao"
-            android:layout_width="104dp"
+            android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/transparente"
@@ -69,7 +68,7 @@
 
         <Button
             android:id="@+id/btnDicas"
-            android:layout_width="100dp"
+            android:layout_width="105dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/transparente"
